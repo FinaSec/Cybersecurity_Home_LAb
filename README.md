@@ -17,5 +17,6 @@ engineering, and incident response.
 - Hypervisor: VMware Fusion (Apple Silicon)
 
 ## Status
-- Repository initialized
+- GitHub repository initialized
+- VMware Fusion 25H2 installed and configured
 - Lab setup in progress
