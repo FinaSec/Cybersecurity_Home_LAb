@@ -23,3 +23,4 @@ engineering, and incident response.
 - Hostname set to WIN11-LAB1
 - Windows installation completed and desktop reached
 - Windows hardening in progress (auditing configuration)
+Account lockout policy configured (5 failed attempts, 15-minute lockout, 15 Reset lockout counter, and Enable Amin account lockout )
