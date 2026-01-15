@@ -19,4 +19,7 @@ engineering, and incident response.
 ## Status
 - GitHub repository initialized
 - VMware Fusion 25H2 installed and configured
+- Windows 11 Pro ARM VM created
+- Hostname set to WIN11-LAB1
+- Windows installation completed and desktop reached
 - Lab setup in progress
