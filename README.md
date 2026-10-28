@@ -24,3 +24,15 @@ engineering, and incident response.
 - Windows installation completed and desktop reached
 - Windows hardening in progress (auditing configuration)
 Account lockout policy configured (5 failed attempts, 15-minute lockout, 15 Reset lockout counter, and Enable Amin account lockout )
+
+## Guided Security Labs
+
+These walkthroughs document a separate Kali Linux and Windows 7 training environment. They are distinct from the Windows 11 ARM home lab described above.
+
+| Lab | Focus | Documentation |
+| --- | --- | --- |
+| Lab 3 | Nessus assessment and MS17-010 finding review | [Windows 7 vulnerability assessment](labs/windows7-security/03-nessus-assessment/README.md) |
+| Lab 4 | Controlled SMB exploitation and session validation | [Windows 7 exploitation testing](labs/windows7-security/04-exploitation-testing/README.md) |
+| Lab 6 | Windows Firewall rules and scan comparison | [Firewall exposure reduction](labs/windows7-security/06-firewall-validation/README.md) |
+
+[Windows 7 lab collection](labs/windows7-security/README.md) · [Metasploitable assessment and exploitation labs](https://github.com/FinaSec/Metasploitable-Vulnerability-Assessment)
