@@ -1,5 +1,18 @@
 # Cybersecurity Home Lab
 
+## All Security Labs
+
+Labs 1, 2, and 5 are stored in the Metasploitable repository. Labs 3, 4, and 6 are stored in the Cybersecurity Home Lab repository. Use these direct links to open any lab.
+
+| Lab | Walkthrough |
+| --- | --- |
+| 1 | [Samba exploitation](https://github.com/FinaSec/Metasploitable-Vulnerability-Assessment/tree/main/labs/01-samba-exploitation) |
+| 2 | [Session and password auditing](https://github.com/FinaSec/Metasploitable-Vulnerability-Assessment/tree/main/labs/02-session-password-auditing) |
+| 3 | [Windows 7 Nessus assessment](https://github.com/FinaSec/Cybersecurity_Home_LAb/tree/main/labs/windows7-security/03-nessus-assessment) |
+| 4 | [Windows 7 exploitation testing](https://github.com/FinaSec/Cybersecurity_Home_LAb/tree/main/labs/windows7-security/04-exploitation-testing) |
+| 5 | [Nikto and DVWA web scanning](https://github.com/FinaSec/Metasploitable-Vulnerability-Assessment/tree/main/labs/05-web-scanning-information-exposure) |
+| 6 | [Windows Firewall validation](https://github.com/FinaSec/Cybersecurity_Home_LAb/tree/main/labs/windows7-security/06-firewall-validation) |
+
 ## Overview
 This repository documents the design and implementation of a cybersecurity home lab
 built to develop practical skills in Security Operations (SOC), log analysis, detection
