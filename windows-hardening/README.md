@@ -1,31 +1,37 @@
 # Windows 11 Hardening and Auditing
 
+[Back to the home lab](../README.md)
+
 ## Objective
-Configure Windows security auditing to support SOC-style monitoring,
-incident detection, and investigation.
 
----
+Configure authentication controls and logon auditing on WIN11-LAB1 to support later security monitoring and investigation.
 
-## Advanced Audit Policy Configuration
+## Environment
 
-### Audit Logon Events
+Windows 11 Pro ARM running in VMware Fusion on an Apple Silicon Mac. This is the Windows 11 home lab described in the repository overview.
 
-**Path**
-Security Settings  
-→ Advanced Audit Policy Configuration  
-→ System Audit Policies  
-→ Logon/Logoff  
+## Logon auditing
 
-**Configuration**
-- Audit Logon: Enabled
-  - Success
-  - Failure
+In Advanced Audit Policy Configuration, navigate to:
 
-**Why this matters**
-This configuration enables visibility into:
-- Successful and failed logon attempts
-- Brute-force authentication attempts
-- Unauthorized access activity
+**System Audit Policies > Logon/Logoff > Audit Logon**
 
-**Evidence**
-Screenshots stored in the screenshots folder.
+Enable both **Success** and **Failure**.
+
+These settings record successful and failed logon activity for review. Investigating suspicious authentication requires examining the resulting events and their context.
+
+![Successful and failed logon auditing enabled](../screenshots/audit-logon-success-failure-enabled.png)
+
+## Account lockout configuration
+
+| Setting | Recorded value |
+| --- | --- |
+| Account lockout threshold | 5 failed attempts |
+| Account lockout duration | 15 minutes |
+| Reset account lockout counter after | 15 minutes |
+
+![Account lockout policy configuration](../screenshots/account-lockout-policy.png)
+
+## Current scope
+
+The evidence documents policy configuration. A controlled failed-logon test and a review of the resulting Security events are next steps for validating monitoring behavior.
