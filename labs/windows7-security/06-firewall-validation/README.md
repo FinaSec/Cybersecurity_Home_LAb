@@ -20,9 +20,11 @@ My source record documents enabling Windows Firewall and a subsequent scan with 
 
 ## 3. Configure SMB-related inbound restrictions
 
-I worked through an inbound TCP block rule intended for ports **445 and 139**, with the source notes specifying Domain, Private, and Public profiles. The block action is shown below; the provided images repeat the action screen and do not independently verify the selected profiles.
+I worked through an inbound TCP block rule intended for ports **445 and 139**, applying it across Domain, Private, and Public profiles. The action and profile selections are shown below.
 
 ![Inbound rule block action](screenshots/02-block-action.png)
+
+![Rule profile selections](screenshots/03-rule-profiles.png)
 
 One intermediate port-entry screenshot in the original record reads `445,139a`, with a stray character. It is not proof of a valid saved port list. A later rule list shows an enabled block rule named “Block 445 & 139,” but a rule name alone does not verify its actual port properties. A stronger follow-up would capture the saved rule's Protocols and Ports tab and test reachability directly.
 
@@ -63,4 +65,4 @@ The final scan again shows three informational entries. Because the count was al
 
 ## Evidence source
 
-Seven screenshots were selected from my Lab 6 record. Intermediate wizard screenshots and scan results are retained as evidence of the documented workflow, with limitations called out explicitly. No firewall or scanning actions were performed while publishing this walkthrough.
+Six screenshots were selected from my Lab 6 record. Intermediate wizard screenshots and scan results are retained as evidence of the documented workflow, with limitations called out explicitly. No firewall or scanning actions were performed while publishing this walkthrough.
