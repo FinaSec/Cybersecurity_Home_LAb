@@ -64,3 +64,7 @@ Labs 1, 2, and 5 are in my Metasploitable repository; Labs 3, 4, and 6 are in th
 - Controlled security testing and session validation
 - Firewall rule validation through scan comparisons
 - Technical documentation with supporting evidence
+
+## Reading resources
+
+- [Verizon 2022 Data Breach Investigations Report](resources/verizon-2022-dbir/README.md) — external reference published by Verizon.
