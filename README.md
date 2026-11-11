@@ -14,6 +14,7 @@ This repository documents my Windows 11 ARM home lab and a separate collection o
 | Lab 3: Windows 7 assessment | Nessus results and MS17-010 finding review | [Assessment walkthrough](labs/windows7-security/03-nessus-assessment/README.md) |
 | Lab 4: Exploitation testing | Controlled SMB testing and session validation | [Testing walkthrough](labs/windows7-security/04-exploitation-testing/README.md) |
 | Lab 6: Firewall validation | Firewall rules and scan comparison | [Firewall walkthrough](labs/windows7-security/06-firewall-validation/README.md) |
+| Proxmox backup and recovery | Ubuntu VM backup, restore, and snapshot rollback | [Proxmox recovery project](https://github.com/FinaSec/proxmox-backup-and-recovery) |
 
 [Windows 7 lab collection](labs/windows7-security/README.md)
 
